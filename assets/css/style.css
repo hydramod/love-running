@@ -67,7 +67,7 @@ h1, h2 {
 #hero-image {
     height: 600px;
     width: 100%;
-    background: url("../css/images/hero-image.webp") no-repeat center center;
+    background: url("../images/hero-image.webp") no-repeat center center;
     animation-name: hero-zoom;
     animation-duration: 5s;
     animation-fill-mode: forwards;
@@ -159,13 +159,13 @@ hr {
 }
 
 #circle-cover-bg {
-    background: url("../css/images/ethos-center-image.jpg") no-repeat center center;
+    background: url("../images/ethos-center-image.jpg") no-repeat center center;
     height: 100%;
     border-radius: 50%;
 }
 
 #times {
-    background: url("../css/images/dublin-city.webp");
+    background: url("../images/dublin-city.webp");
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
@@ -216,4 +216,34 @@ footer {
 
 #photos > img {
     width: 100%;
+}
+
+@media screen and (max-width: 1200px) {
+    #club-ethos {
+        width: 65%;
+        height: 1200px;
+        margin: 0 auto;
+    }
+
+    #welcomne {
+        padding: 30px 0;
+        margin: 0;
+    }
+
+    #left-about, #right-about {
+        width: 100%;
+        float: left;
+        padding: 0;
+    }
+
+    #center-about {
+        clear: both;
+        width: 100%;
+        float: left;
+        padding: 0;
+    }
+
+    hr {
+        display: none;
+    }
 }
