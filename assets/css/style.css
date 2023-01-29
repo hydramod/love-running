@@ -187,3 +187,22 @@ hr {
 #times div, #times h2 {
     color: #fafafa;
 }
+
+footer {
+    height: 150px;
+}
+
+.social-netwroks {
+    text-align: center;
+}
+
+.social-netwroks > li {
+    display: inline;
+}
+
+.social-netwroks i {
+    font-size: 160%;
+    margin: 1%;
+    padding: 5%;
+    color: #3a3a3a;
+}
